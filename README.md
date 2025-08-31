@@ -1,6 +1,6 @@
 # DQMax → DSSAT Converter
 
-This project provides tools to convert **DQMax#SAT formulas** (in **DQDIMACS** format) into **DSSAT formulas**, following the transformation described in *Theorem 1*. It also includes a **Python utility** for generating random SMT2 test formulas (kept in a separate folder).
+This project provides tools to convert **DQMax#SAT formulas** (in **DQDIMACS** format) into **DSSAT formulas**, following the transformation described in *Theorem 1*. It also includes a **Python utility** for generating random SMT2 test formulas.
 
 ---
 
@@ -31,7 +31,7 @@ This project provides tools to convert **DQMax#SAT formulas** (in **DQDIMACS** f
   - `Makefile` builds the binary.
 
 - **`smt-generator/`**  
-  Contains Python scripts to generate small, random **SMT2** test cases with X/Y/Z variables and constraints.
+  Contains Python scripts to generate random **SMT2** test cases with X/Y/Z variables and constraints.
 
 ---
 
